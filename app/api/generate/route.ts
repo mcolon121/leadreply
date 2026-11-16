@@ -56,7 +56,7 @@ Return only the reply text.`;
 
   try {
     const message = await client.messages.create({
-      model: "claude-sonnet-4-20250514",
+      model: "claude-sonnet-5-5",
       max_tokens: 512,
       messages: [
         {
