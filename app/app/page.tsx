@@ -9,6 +9,7 @@ const BUSINESS_TYPES = [
   { value: "Home services", label: "Home services" },
   { value: "Med spa", label: "Med spa" },
   { value: "Coaching", label: "Coaching" },
+  { value: "UX consulting", label: "UX consulting" },
 ];
 
 export default function AppPage() {

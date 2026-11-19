@@ -9,7 +9,7 @@ LeadReply is a lightweight Next.js tool that takes an inbound lead message and g
 ## Features
 
 - 🚀 Instant AI-powered replies via Claude (Sonnet)
-- 🎯 Business-type aware tone (real estate, home services, med spa, coaching)
+- 🎯 Business-type aware tone (real estate, home services, med spa, coaching, UX consulting)
 - 📋 One-click copy to clipboard
 - ✏️ Always editable before sending
 - 📱 Fully mobile responsive
@@ -88,7 +88,7 @@ leadreply/
 | Field          | Type   | Required | Description                                      |
 |----------------|--------|----------|--------------------------------------------------|
 | `lead`         | string | Yes      | The inbound lead message                         |
-| `businessType` | string | No       | One of: Real estate, Home services, Med spa, Coaching |
+| `businessType` | string | No       | One of: Real estate, Home services, Med spa, Coaching, UX consulting |
 
 **Response:**
 
